@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="kulmedslojd.hearinggame.PracticeFragment">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:titleTextColor="@android:color/black"
+            style="@style/MyCustomTheme" />
+
+        <kulmedslojd.hearinggame.PracticeView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/practice_view" />
+
+
+</LinearLayout>

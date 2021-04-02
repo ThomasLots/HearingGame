@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="kulmedslojd.hearinggame.StartFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:titleTextColor="@android:color/black"
+        style="@style/MyCustomTheme" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <kulmedslojd.hearinggame.MainView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:id="@+id/game_view" />
+
+        <Button
+            android:id="@+id/button_play_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button_practice_main"
+            android:layout_alignEnd="@+id/button_practice_main"
+            android:layout_centerVertical="true"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="@string/play_button"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            style="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/practice_button"
+            android:textStyle="bold"
+            android:id="@+id/button_practice_main"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            style="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/privacy_policy"
+            android:id="@+id/help_button_main"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:id="@+id/welcome_Image"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/welcome_image"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="ProgressBar.Large"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading_ad_message"
+                android:padding="8dp"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_below="@id/progressBar"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"
+                android:layout_marginTop="100dp"/>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

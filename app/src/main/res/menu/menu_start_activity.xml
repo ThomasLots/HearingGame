@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/help"
+        android:visible="true"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="ifRoom"
+        android:title="@string/help" />
+
+    <item android:id="@+id/consent"
+        android:title="@string/consent"
+        android:visible="true"/>
+
+    <item android:id="@+id/privacy_policy"
+        android:title="@string/privacy_policy"
+        android:visible="true" />
+
+</menu>

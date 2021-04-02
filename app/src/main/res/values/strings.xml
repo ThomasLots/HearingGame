@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Musical Pitch Game Violin</string>
+    <string name="game_view">Game View</string>
+    <string name="practice_view">Practice</string>
+    <string name="help">Help</string>
+    <string name="back_game">Levels</string>
+    <string name="play">Play</string>
+    <string name="practice">Practice</string>
+    <string name="play_button">Play game</string>
+    <string name="practice_button">Practice</string>
+    <string name="help_info_start">Press button PRACTICE.\n\n
+                            -Learn where the notes are located on the violin fingerboard.\n\n
+                            -Listen and get to know the sound of notes or chords.\n\n
+                            -Try to play melodies!\n\n\n
+                            Press button PLAY GAME.\n\n
+                            -Test and improve your skills in determining the musical pitch.\n\n
+                            -The game consists of 12 levels which increases in difficulty</string>
+    <string name="help_info_game">-Press the play-button and a random tone will sound.\n\n
+                                -Test your skills in determining the pitch by pressing the corresponding tone on the violin fingerboard.\n\n
+                                -Compare the two sounds! Release the tone and get the result of your skills.\n\n
+                                -Move to next level by collecting points, 10 points for each level.\n\n
+                                -A minor loss of points will occur when failing to determine the musical pitch.\n\n
+                                -The game consists of 12 levels and they increases in difficulty.\n\n
+                                -Touch the icon in the toolbar and switch between music notes and letters.\n\n
+                                Good luck!</string>
+    <string name="help_info_practice">-Play tones or chords on the violin fingerboard.\n\n
+                            -Control the length of sound by pressing and releasing individual tones.\n\n
+                            -Play chords using multiple fingers!\n\n
+                            -Try to play melodies!\n\n
+                            -Touch the icon in the toolbar and switch between music notes and letters.</string>
+    <string name="congatulations">Congratulations!</string>
+    <string name="level">Level</string>
+    <string name="is_completed">is completed!</string>
+    <string name="nice_job">Nice job!</string>
+    <string name="you_have_reached_the_end_of_the_game">You have reached the end of the game!</string>
+    <string name="you_failed">You failed!</string>
+    <string name="tone">\nTone</string>
+    <string name="was_played">was played!</string>
+    <string name="cancel">Cancel</string>
+    <string name="start">Start</string>
+    <string name="game_view_level">Level</string>
+    <string name="ok">OK</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="adfree_message">There is no ad-free version. The app will close!\n\n
+                                        Please uninstall Musical Pitch Game Violin if you want to use an ad-free version!\n\n
+                                        Open app again and make another choice if you want to use the app!</string>
+    <string name="message">Message</string>
+    <string name="consent">Ad settings</string>
+    <string name="interstitial_full_screen">ca-app-pub-6186029833658850/5484248124</string>
+    <string name="interstitial_full_screen_practice_view">ca-app-pub-6186029833658850/5626065968</string>
+    <string name="app_ad_id">ca-app-pub-6186029833658850~5130226129</string>
+    <string name="practice_View">Practice View</string>
+    <string name="you_made_it_in_10_additional">You needed</string>
+    <string name="attempts">Extra attempt(s):</string>
+    <string name="publisher_id">pub-6186029833658850</string>
+    <string name="icon_note">Notes/ Letters</string>
+    <string name="loading_ad_message">Loading ad!</string>
+    <string name="encouring_message">"Don´t give up!\nYou can make it!"</string>
+
+</resources>
