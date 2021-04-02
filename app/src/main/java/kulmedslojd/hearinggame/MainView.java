@@ -71,7 +71,6 @@ public class MainView extends View{
         initBimapNeck();
         canvas.drawBitmap(mBitmapNeck, getXposition(), 0, null);
     }
-    // hej
     public float getXposition()
     {
         float mPositionX;
